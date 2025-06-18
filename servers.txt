@@ -1,5 +1,5 @@
-vmess://de5e5517-a6ca-4702-b938-fcbb2b38ae6f@159.65.49.67:2095?encryption=auto&type=raw&security=none&headerType=http#🇬🇧-VMESS.HTTP
-vmess://7ea00ef5-238f-448c-9f5d-a0f6bae245e4@138.68.65.240:2095?encryption=auto&type=raw&security=none&headerType=http#🇩🇪-VMESS.HTTP
+vmess://eyJpZCI6ImRlNWU1NTE3LWE2Y2EtNDcwMi1iOTM4LWZjYmIyYjM4YWU2ZiIsImFkZCI6IjE1OS42NS40OS42NyIsInR5cGUiOiJodHRwIiwiaG9zdCI6IiIsInBvcnQiOiIyMDk1Iiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInBhdGgiOiJcLyIsInBzIjoiJUYwJTlGJTg3JUFDJUYwJTlGJTg3JUE3LVZNRVNTLkhUVFAiLCJ0bHMiOiJub25lIn0=
+vmess://eyJhZGQiOiIxMzguNjguNjUuMjQwIiwidGxzIjoibm9uZSIsImhvc3QiOiIiLCJuZXQiOiJ0Y3AiLCJzY3kiOiJhdXRvIiwidHlwZSI6Imh0dHAiLCJwYXRoIjoiXC8iLCJpZCI6IjdlYTAwZWY1LTIzOGYtNDQ4Yy05ZjVkLWEwZjZiYWUyNDVlNCIsInBzIjoiJUYwJTlGJTg3JUE5JUYwJTlGJTg3JUFBLVZNRVNTLkhUVFAiLCJwb3J0IjoiMjA5NSJ9
 trojan://26d71670-3b2a-11f0-aea0-1239d0255272@51.38.65.155:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇬🇧-TROJAN
 trojan://0f6e1180-4c24-11f0-b682-1239d0255272@15.204.234.166:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇺🇸-TROJAN
 trojan://2fb290e0-4c13-11f0-a628-1239d0255272@51.210.182.170:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇫🇷-TROJAN
