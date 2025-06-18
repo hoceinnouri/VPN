@@ -1,4 +1,237 @@
-vmess://eyJ0bHMiOiJub25lIiwibmV0IjoidGNwIiwic25pIjoiIiwiZnJhZ21lbnQiOiIiLCJoZWFkZXJUeXBlIjoiaHR0cCIsInBvcnQiOiIyMDk1IiwiZnAiOiIiLCJtb2RlIjoiIiwidiI6IjIiLCJob3N0IjoiIiwiZXh0cmEiOiIiLCJhbHBuIjoiIiwicGF0aCI6IiIsInR5cGUiOiJub25lIiwic2VlZCI6IiIsInBzIjoi8J+HqfCfh6otVk1FU1MuSFRUUCIsInNlcnZpY2VOYW1lIjoibm9uZSIsImFkZCI6IjEzOC42OC42NS4yNDAiLCJpZCI6IjdlYTAwZWY1LTIzOGYtNDQ4Yy05ZjVkLWEwZjZiYWUyNDVlNCIsImFpZCI6IjAiLCJkZXZpY2VJRCI6IiJ9
+{
+  "log": {},
+  "inbounds": [
+      {
+        "protocol": "shadowsocks",
+        "port": 10808,
+        "settings": {
+          "udp": false,
+          "password": "123456",
+          "method": "chacha20-ietf-poly1305",
+          "network": "tcp,udp",
+          "ota": true,
+          "level": 8
+        },
+        "tag": "socks",
+        "listen": "127.0.0.1"
+      },
+      {
+        "protocol": "socks",
+        "port": 1087,
+        "tag": "directSocks",
+        "settings": {
+          "auth": "noauth",
+          "userLevel": 8,
+          "udp": true
+        },
+        "listen": "127.0.0.1"
+      },
+      {
+        "protocol": "dokodemo-door",
+        "port": 62789,
+        "tag": "api",
+        "settings": {
+          "address": "[::1]"
+        },
+        "listen": "[::1]"
+      },
+      {
+        "protocol": "dokodemo-door",
+        "port": 62790,
+        "tag": "inDns",
+        "settings": {
+          "address": "8.8.8.8",
+          "userLevel": 0,
+          "port": 53,
+          "timeout": 10,
+          "network": "tcp,udp"
+        },
+        "listen": "127.0.0.1"
+      }
+    ],
+  "outbounds": [
+      {
+        "streamSettings": {
+          "network": "tcp",
+          "tcpSettings": {
+            "header": {
+              "request": {
+                "headers": {
+                  "Host": [
+                    ""
+                  ],
+                  "Connection": [
+                    "keep-alive"
+                  ],
+                  "Pragma": [
+                    "no-cache"
+                  ],
+                  "Accept-Encoding": [
+                    "gzip, deflate"
+                  ],
+                  "User-Agent": [
+                    "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36",
+                    "Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/53.0.2785.109 Mobile/14A456 Safari/601.1.46"
+                  ]
+                },
+                "method": "GET",
+                "version": "1.1",
+                "path": [
+                  "/"
+                ]
+              },
+              "type": "http"
+            }
+          }
+        },
+        "mux": {
+          "xudpProxyUDP443": "allow",
+          "xudpConcurrency": 128,
+          "enabled": false,
+          "concurrency": 50
+        },
+        "settings": {
+          "vnext": [
+            {
+              "address": "138.68.65.240",
+              "users": [
+                {
+                  "id": "7ea00ef5-238f-448c-9f5d-a0f6bae245e4",
+                  "email": "",
+                  "level": 8,
+                  "alterId": 0,
+                  "security": "aes-128-gcm"
+                }
+              ],
+              "port": 2095
+            }
+          ]
+        },
+        "protocol": "vmess",
+        "tag": "proxy"
+      },
+      {
+        "streamSettings": {
+          "sockopt": {
+            "tcpNoDelay": true
+          }
+        },
+        "settings": {
+          "fragment": {
+            "packets": "tlshello",
+            "interval": "10-100",
+            "length": "80-250"
+          },
+          "userLevel": 8
+        },
+        "protocol": "freedom",
+        "tag": "fragment"
+      }
+    ],
+  "api": {
+      "tag": "api",
+      "services": [
+        "StatsService"
+      ]
+    },
+  "dns": {
+      "disableCache": true,
+      "tag": "dnsQuery",
+      "disableFallback": true,
+      "disableFallbackIfMatch": true,
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "queryStrategy": "UseIP"
+    },
+  "stats": {},
+  "routing": {
+        "rules": [
+          {
+            "inboundTag": [
+              "api"
+            ],
+            "type": "field",
+            "outboundTag": "api"
+          },
+          {
+            "inboundTag": [
+              "inDns"
+            ],
+            "type": "field",
+            "outboundTag": "outDns"
+          },
+          {
+            "inboundTag": [
+              "dnsQuery"
+            ],
+            "type": "field",
+            "outboundTag": "proxy"
+          },
+          {
+            "inboundTag": [
+              "directSocks"
+            ],
+            "type": "field",
+            "outboundTag": "direct"
+          },
+          {
+            "inboundTag": [
+              "api"
+            ],
+            "type": "field",
+            "outboundTag": "api"
+          },
+          {
+            "outboundTag": "outDns",
+            "inboundTag": [
+              "inDns"
+            ],
+            "type": "field"
+          },
+          {
+            "outboundTag": "proxy",
+            "inboundTag": [
+              "dnsQuery"
+            ],
+            "type": "field"
+          },
+          {
+            "inboundTag": [
+              "directSocks"
+            ],
+            "outboundTag": "direct",
+            "type": "field"
+          }
+        ],
+        "domainStrategy": "AsIs",
+        "balancers": []
+      },
+  "policy": {
+        "levels": {
+          "8": {
+            "uplinkOnly": 1,
+            "downlinkOnly": 1,
+            "statsUserDownlink": false,
+            "connIdle": 30,
+            "handshake": 4,
+            "bufferSize": 0,
+            "statsUserUplink": false
+          }
+        },
+        "system": {
+          "statsOutboundUplink": true,
+          "statsOutboundDownlink": true,
+          "statsInboundUplink": true,
+          "statsInboundDownlink": true
+        }
+      },
+  "transport": {}
+}
+
 vmess://eyJzZWVkIjoiIiwiZnJhZ21lbnQiOiIiLCJtb2RlIjoiIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJleHRyYSI6IiIsImhlYWRlclR5cGUiOiJodHRwIiwidiI6IjIiLCJwcyI6IvCfh6zwn4enLVZNRVNTLkhUVFAiLCJkZXZpY2VJRCI6IiIsInBhdGgiOiIiLCJhbHBuIjoiIiwiaWQiOiJkZTVlNTUxNy1hNmNhLTQ3MDItYjkzOC1mY2JiMmIzOGFlNmYiLCJmcCI6IiIsInBvcnQiOiIyMDk1IiwiYWRkIjoiMTU5LjY1LjQ5LjY3IiwiYWlkIjoiMCIsInNlcnZpY2VOYW1lIjoibm9uZSIsInRscyI6Im5vbmUiLCJzbmkiOiIiLCJob3N0IjoiIn0=
 trojan://26d71670-3b2a-11f0-aea0-1239d0255272@51.38.65.155:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇬🇧-TROJAN
 trojan://0f6e1180-4c24-11f0-b682-1239d0255272@15.204.234.166:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇺🇸-TROJAN
