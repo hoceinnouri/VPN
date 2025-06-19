@@ -1,5 +1,5 @@
 vmess://eyJob3N0IjoiIiwidHlwZSI6Imh0dHAiLCJpZCI6ImRlNWU1NTE3LWE2Y2EtNDcwMi1iOTM4LWZjYmIyYjM4YWU2ZiIsInBvcnQiOiIyMDk1Iiwic2N5IjoiYXV0byIsInRscyI6Im5vbmUiLCJwcyI6IiVGMCU5RiU4NyVBQyVGMCU5RiU4NyVBNy1WTUVTUyIsInBhdGgiOiJcLyIsIm5ldCI6InRjcCIsImFkZCI6IjE1OS42NS40OS42NyJ9
 vmess://eyJ0bHMiOiJub25lIiwiaWQiOiI3ZWEwMGVmNS0yMzhmLTQ0OGMtOWY1ZC1hMGY2YmFlMjQ1ZTQiLCJwb3J0IjoiMjA5NSIsInR5cGUiOiJodHRwIiwicHMiOiIlRjAlOUYlODclQTklRjAlOUYlODclQUEtVk1FU1MiLCJob3N0IjoiIiwibmV0IjoidGNwIiwiYWRkIjoiMTM4LjY4LjY1LjI0MCIsInNjeSI6ImF1dG8iLCJwYXRoIjoiXC8ifQ==
-trojan://26d71670-3b2a-11f0-aea0-1239d0255272@51.38.65.155:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇬🇧-TROJAN
-trojan://0f6e1180-4c24-11f0-b682-1239d0255272@15.204.234.166:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇺🇸-TROJAN
-trojan://2fb290e0-4c13-11f0-a628-1239d0255272@51.210.182.170:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#🇫🇷-TROJAN
+trojan://26d71670-3b2a-11f0-aea0-1239d0255272@51.38.65.155:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#UK-TROJAN
+trojan://0f6e1180-4c24-11f0-b682-1239d0255272@15.204.234.166:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#FR-TROJAN
+trojan://2fb290e0-4c13-11f0-a628-1239d0255272@51.210.182.170:443?security=tls&sni=speedtest.net&fp=randomized&headerType=none&alpn=h2,h3,http/1.1&type=tcp&allowInsecure=true#FR-TROJAN
