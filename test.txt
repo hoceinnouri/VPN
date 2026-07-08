@@ -1,2 +1,3 @@
-trojan://ccb9e560-64d7-11f1-aef4-1239d0255272@uk1.test3.net:443?headerType=none&security=tls&insecure=1&allowInsecure=1&type=tcp#UK-Test3
+trojan://ccb9e560-64d7-11f1-aef4-1239d0255272@uk1.test3.net:443?headerType=none&security=tls&insecure=1&allowInsecure=1&type=tcp#UK3
 vless://1d25373a-77fa-11f1-9eb5-e39085c22d88@83.217.9.70:443?sid=01792a03fa73a82d&fp=chrome&type=tcp&sni=cloudflare.com&encryption=none&flow=xtls-rprx-vision&security=reality&pbk=tzODPD7Oji0EWqUoC6EJ9Apsuja7eCmcD5NKvzZ5jEM&headerType=none#TR1
+vless://62a72f00-7b1c-11f1-9858-13a7d47aa8fd@77.68.12.207:443?flow=xtls-rprx-vision&sid=4b6bd0556984846a&sni=cloudflare.com&headerType=none&type=tcp&pbk=3d2LFAv_m6D0OW3Eq7GuJDSWVhrSzCaaK5nxfPk-s2U&fp=chrome&encryption=none&security=reality#UK1
