@@ -1,1 +1,2 @@
-
+trojan://ccb9e560-64d7-11f1-aef4-1239d0255272@uk1.test3.net:443?headerType=none&security=tls&insecure=1&allowInsecure=1&type=tcp#UK-Test3
+vless://1d25373a-77fa-11f1-9eb5-e39085c22d88@83.217.9.70:443?sid=01792a03fa73a82d&fp=chrome&type=tcp&sni=cloudflare.com&encryption=none&flow=xtls-rprx-vision&security=reality&pbk=tzODPD7Oji0EWqUoC6EJ9Apsuja7eCmcD5NKvzZ5jEM&headerType=none#TR1
