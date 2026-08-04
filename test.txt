@@ -1,1 +1,2 @@
+vless://b43c074d-627a-4ab1-a3e6-007fa2e07397@frdd.nomac.ir:2026?fp=firefox&headerType=none&sni=yahoo.com&pbk=484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8&security=reality&type=tcp&encryption=none&sid=ca930e5d4a603c6a#FR
 trojan://a19b28a0-8f05-11f1-9fe4-1239d0255272@uk1.test3.net:443?allowInsecure=1&insecure=1&security=tls&type=tcp&headerType=none&fp=chrome#UK3
