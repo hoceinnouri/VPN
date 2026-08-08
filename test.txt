@@ -1,7 +1,7 @@
-vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@nl-1-ds-dgh-f.codinos.ir:8080?flow=&type=tcp&headerType=http&host=play.google.com&path=/&security=none#%F0%9F%87%B3%F0%9F%87%B1NL
-vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@des.systemcont.ir:8080?flow=&type=tcp&headerType=http&host=play.google.com&path=/&security=none#%F0%9F%87%A9%F0%9F%87%AATCP2
-vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@edfgh.fr.frg.systemcont.ir:8080?flow=&type=tcp&headerType=http&host=play.google.com&path=/&security=none#%F0%9F%87%A9%F0%9F%87%AATCP
-vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@104.17.121.110:8880?flow=&type=httpupgrade&host=dgermany.systemcont.ir&path=/?ed%3D2560&security=none#%F0%9F%87%A9%F0%9F%87%AACDN
+vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@nl-1-ds-dgh-f.codinos.ir:8080?flow=&type=tcp&headerType=http&host=play.google.com&path=/&security=none#NL
+vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@des.systemcont.ir:8080?flow=&type=tcp&headerType=http&host=play.google.com&path=/&security=none#TCP2
+vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@edfgh.fr.frg.systemcont.ir:8080?flow=&type=tcp&headerType=http&host=play.google.com&path=/&security=none#TCP
+vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@104.17.121.110:8880?flow=&type=httpupgrade&host=dgermany.systemcont.ir&path=/?ed%3D2560&security=none#CDN
 vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@sdvf.df.sds.appcodes.ir:2026?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=yahoo.com&pbk=484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8&sid=ca930e5d4a603c6a#TUN2
 vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@frdd.nomac.ir:2026?headerType=none&security=reality&type=tcp&sid=ca930e5d4a603c6a&encryption=none&fp=firefox&sni=yahoo.com&pbk=484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8#FR
 trojan://a19b28a0-8f05-11f1-9fe4-1239d0255272@uk1.test3.net:443?allowInsecure=1&insecure=1&security=tls&type=tcp&headerType=none&fp=chrome#UK3
