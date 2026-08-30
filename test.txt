@@ -1,5 +1,4 @@
 trojan://a19b28a0-8f05-11f1-9fe4-1239d0255272@uk1.test3.net:443?security=tls&fp=chrome&insecure=1&headerType=none&allowInsecure=1&type=tcp#UK3
-vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.150:443?flow=&type=ws&host=7wwwspeedtestnet.global.ssl.fastly.net&path=/&security=tls&sni=ssl.fastly.com&fp=chrome#Ws1
-vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.150:80?flow=&type=ws&host=7wwwspeedtestnet.global.ssl.fastly.net&path=/&security=none#Ws2
-vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@pl10.tenzeuio.ir:2690?flow=&type=tcp&headerType=none&security=reality&fp=firefox&sni=updates.cdn-apple.com&pbk=FPEhibdIEG8mWtAAKN2Gyx-PQBTAt66fGhHfKoO3rW4&sid=3fd607aba67165bd#Reality1
-vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de11.claqera.ir:2690?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=updates.cdn-apple.com&pbk=FPEhibdIEG8mWtAAKN2Gyx-PQBTAt66fGhHfKoO3rW4&sid=3fd607aba67165bd#Reality2
+vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.159:443?flow=&type=ws&host=7wwwspeedtestnet.global.ssl.fastly.net&path=/&security=tls&sni=ssl.fastly.com&fp=chrome#Ws1
+vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de1.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#%F0%9F%87%A9%F0%9F%87%AA1
+vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de10.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#%F0%9F%87%A9%F0%9F%87%AA10
