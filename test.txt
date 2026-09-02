@@ -2,3 +2,4 @@ trojan://a19b28a0-8f05-11f1-9fe4-1239d0255272@uk1.test3.net:443?security=tls&fp=
 vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.159:443?flow=&type=ws&host=7wwwspeedtestnet.global.ssl.fastly.net&path=/&security=tls&sni=ssl.fastly.com&fp=chrome#Ws1
 vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de1.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#%F0%9F%87%A9%F0%9F%87%AA1
 vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de10.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#%F0%9F%87%A9%F0%9F%87%AA10
+vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de11.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#%F0%9F%87%A9%F0%9F%87%AA11
