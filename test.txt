@@ -1,3 +1,5 @@
 trojan://f4420940-a905-11f1-a417-1239d0255272@uk1.test3.net:443?type=tcp&security=tls&headerType=none&insecure=1&allowInsecure=1#UK
 vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.159:443?flow=&type=ws&host=7wwwspeedtestnet.global.ssl.fastly.net&path=/&security=tls&sni=ssl.fastly.com&fp=chrome#Ws1
 vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.159:443?flow=&type=ws&host=BlackGod.global.ssl.fastly.net&path=/&security=tls&sni=ssl.fastly.com&fp=chrome#Ws2
+vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de18.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#DE18
+vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de20.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#DE20
