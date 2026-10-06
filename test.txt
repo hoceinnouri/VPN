@@ -1,3 +1,3 @@
-vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.159:443?flow=&type=ws&host=7wwwspeedtestnet.global.ssl.fastly.net&path=/&security=tls&sni=ssl.fastly.com&fp=chrome#Ws1
-vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@199.232.78.159:443?flow=&type=ws&host=FastSvn.global.ssl.fastly.net&path=/&security=tls&sni=ssl.fastly.com&fp=chrome#Ws2
-vless://f7ec106d-ad4b-4f5a-ac6d-2bd7a42e2e4d@de16.bexait.ir:2434?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=icloud.com&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&sid=9de041877612a718#%F0%9F%87%A9%F0%9F%87%AADE16
+vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@z5299ng5ox.plytob.ir:24443?type=tcp&security=reality&sni=www.apple.com&fp=chrome&headerType=none&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&sid=b7e45d3a65bfc319&encryption=none#DE
+vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@j22ydp1ht2.codesystem.ir:43234?fp=chrome&security=reality&type=tcp&headerType=none&encryption=none&sni=www.apple.com&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&sid=b7e45d3a65bfc319#FL
+trojan://40940a70-bb40-11f1-9c3f-1239d0255272@uk1.test3.net:443?headerType=none&security=tls&allowInsecure=1&insecure=1&type=tcp#UK
