@@ -1,3 +1,4 @@
 vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@z5299ng5ox.plytob.ir:24443?type=tcp&security=reality&sni=www.apple.com&fp=chrome&headerType=none&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&sid=b7e45d3a65bfc319&encryption=none#DE
+vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@ugy7ne2hla.supros.ir:24443?sni=www.apple.com&fp=chrome&encryption=none&security=reality&type=tcp&sid=b7e45d3a65bfc319&headerType=none&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg#USA
 vless://b99ee1bb-98fa-4305-b560-ae704be0c2f0@j22ydp1ht2.codesystem.ir:43234?fp=chrome&security=reality&type=tcp&headerType=none&encryption=none&sni=www.apple.com&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&sid=b7e45d3a65bfc319#FL
 trojan://40940a70-bb40-11f1-9c3f-1239d0255272@uk1.test3.net:443?headerType=none&security=tls&allowInsecure=1&insecure=1&type=tcp#UK
