@@ -1,7 +1,6 @@
-vless://5d5d11ea-b00a-42c9-9576-569375a1d197@oe9q063q6g.aminicity.ir:24443?sid=b7e45d3a65bfc319&type=tcp&encryption=none&sni=www.apple.com&fp=chrome&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&security=reality&headerType=none#DE
-vless://5d5d11ea-b00a-42c9-9576-569375a1d197@k6w0bcootz.plytob.ir:24443?sid=b7e45d3a65bfc319&type=tcp&headerType=none&encryption=none&security=reality&sni=www.apple.com&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&fp=chrome#DE2
-vless://5d5d11ea-b00a-42c9-9576-569375a1d197@qrzic6ozno.apppas.ir:34443?security=reality&type=tcp&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&sid=b7e45d3a65bfc319&headerType=none&sni=www.apple.com&fp=chrome&encryption=none#DE3
-vless://5d5d11ea-b00a-42c9-9576-569375a1d197@fgfdwrd.zorino.ir:24443?sid=b7e45d3a65bfc319&security=reality&headerType=none&encryption=none&type=tcp&sni=www.apple.com&fp=chrome&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg#DE4
-vless://5d5d11ea-b00a-42c9-9576-569375a1d197@199.232.28.205:443?type=xhttp&path=%2F&host=Splendidly-mystic-gecko-ivory.global.ssl.fastly.net&mode=auto&sni=default.ssl.fastly.net&insecure=1&encryption=none&security=tls&allowInsecure=1#TR
-vless://5d5d11ea-b00a-42c9-9576-569375a1d197@w3qwf4ebw3.bonsazanshz.ir:24443?type=tcp&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&security=reality&sid=b7e45d3a65bfc319&sni=www.apple.com&fp=chrome&headerType=none&encryption=none#US
-trojan://40940a70-bb40-11f1-9c3f-1239d0255272@uk1.test3.net:443?headerType=none&security=tls&allowInsecure=1&insecure=1&type=tcp#UK
+vless://5d5d11ea-b00a-42c9-9576-569375a1d197@fgfdwrd.zorino.ir:2086?encryption=mlkem768x25519plus.native.0rtt.-OdCgQxeyGYB-32tLpcPH5eZKJWSi7p3AXNDxCru-U0&type=ws&security=none&path=%2F#FL1
+vless://5d5d11ea-b00a-42c9-9576-569375a1d197@fgfdwrd.zorino.ir:25443?encryption=none&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&fp=chrome&sni=www.apple.com&headerType=none&security=reality&sid=b7e45d3a65bfc319&type=tcp#FL2
+vless://5d5d11ea-b00a-42c9-9576-569375a1d197@fgfdwrd.zorino.ir:443?pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&type=tcp&security=reality&headerType=none&sni=www.apple.com&fp=chrome&encryption=none&sid=b7e45d3a65bfc319#FL3
+vless://5d5d11ea-b00a-42c9-9576-569375a1d197@FVGVD.didpadaz.ir:24543?fp=chrome&security=reality&sni=www.apple.com&sid=b7e45d3a65bfc319&headerType=none&encryption=none&pbk=A-WcezAbYc6GrL7gqM9Kg89OAgLBp2nxC_wrpenGlDg&type=tcp#DE1
+vless://5d5d11ea-b00a-42c9-9576-569375a1d197@FVGVD.didpadaz.ir:8444?path=%2F&security=none&type=ws&encryption=mlkem768x25519plus.native.0rtt.-OdCgQxeyGYB-32tLpcPH5eZKJWSi7p3AXNDxCru-U0#DE2
+trojan://40940a70-bb40-11f1-9c3f-1239d0255272@uk1.test3.net:443?security=tls&type=tcp&allowInsecure=1&insecure=1&headerType=none#UK
